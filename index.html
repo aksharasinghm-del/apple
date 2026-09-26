@@ -324,6 +324,16 @@ body.offline .icon{color:#1C1B22}
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important; animation:none!important}
 }
+/* campaign kit */
+.ck{margin-top:1.4rem; padding-top:1.2rem; border-top:1px solid var(--page-line)}
+.ck b{display:block; font-size:.95rem}
+.ck p{font-size:.88rem; color:var(--page-muted); margin:.3rem 0 .8rem}
+.ck-strip{display:flex; gap:10px; overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:8px}
+.ck-strip a{flex:0 0 104px; scroll-snap-align:start}
+.ck-strip img{display:block; width:100%; height:auto; border-radius:12px; border:1px solid var(--page-line)}
+.ck-btns{display:flex; flex-wrap:wrap; gap:8px; margin-top:.6rem}
+.ck-btns a{font-size:.85rem; font-weight:700; text-decoration:none; color:var(--page-ink); border:1px solid var(--page-line); border-radius:999px; padding:.45em .9em}
+.ck-btns a.ck-p{background:var(--page-ink); color:var(--page); border-color:var(--page-ink)}
 </style>
 </head>
 <body>
@@ -339,6 +349,12 @@ body.offline .icon{color:#1C1B22}
     <p class="howto">Unlock the phone and open the apps in order. The red badges show you where to go next. Or let it guide you:</p>
     <button class="start" id="startTour" type="button">Start the tour</button>
     <p class="me"><b>Akshara Singh</b><br>Research, strategy, campaign, social media plan, copy and design.</p>
+    <div class="ck">
+      <b>The campaign kit</b>
+      <p>The whole case study as a six-slide carousel I designed. Tap a slide to enlarge.</p>
+      <div class="ck-strip" tabindex="0" aria-label="Campaign kit slides, scroll sideways"><a href="canva-kit/01.jpg" target="_blank" rel="noopener"><img src="canva-kit/01.jpg" alt="Slide 1: Apple Offline" loading="lazy" width="1080" height="1350"></a><a href="canva-kit/02.jpg" target="_blank" rel="noopener"><img src="canva-kit/02.jpg" alt="Slide 2: The receipts" loading="lazy" width="1080" height="1350"></a><a href="canva-kit/03.jpg" target="_blank" rel="noopener"><img src="canva-kit/03.jpg" alt="Slide 3: The insight" loading="lazy" width="1080" height="1350"></a><a href="canva-kit/04.jpg" target="_blank" rel="noopener"><img src="canva-kit/04.jpg" alt="Slide 4: The idea" loading="lazy" width="1080" height="1350"></a><a href="canva-kit/05.jpg" target="_blank" rel="noopener"><img src="canva-kit/05.jpg" alt="Slide 5: Offline Wrapped" loading="lazy" width="1080" height="1350"></a><a href="canva-kit/06.jpg" target="_blank" rel="noopener"><img src="canva-kit/06.jpg" alt="Slide 6: Gen Z, and credits" loading="lazy" width="1080" height="1350"></a></div>
+      <div class="ck-btns"><a class="ck-p" href="https://www.canva.com/d/OWpsMtAJqkIaAXi" target="_blank" rel="noopener">View in Canva ↗</a><a href="canva-kit/campaign-kit.pdf" download>PDF</a><a href="https://www.canva.com/d/84mWTID-NMi4Fmd" target="_blank" rel="noopener">All my work ↗</a></div>
+    </div>
   </aside>
 
   <div class="device">
@@ -600,6 +616,7 @@ body.offline .icon{color:#1C1B22}
             </div>
             <div class="grp">
               <div class="row"><span>Email</span><span class="v" style="font-size:.78rem">Akshara.singh.marketing@gmail.com</span></div>
+              <div class="row"><span>Campaign kit</span><span class="v"><a href="https://www.canva.com/d/OWpsMtAJqkIaAXi" target="_blank" rel="noopener">View in Canva</a></span></div>
               <div class="row"><span>On this project</span><span class="v">Research, brand audit, strategy, new vertical, social plan, copy, design</span></div>
             </div>
             <p class="cap">A self-initiated campaign created for portfolio purposes only. Not affiliated with, commissioned by or endorsed by Apple Inc. Apple, iPhone, Apple Watch, AirPods and Apple Music are trademarks of Apple Inc. Personas, targets and budget are illustrative; statistics are credited to their sources.</p>
